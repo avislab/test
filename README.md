@@ -12,3 +12,9 @@ HTML5 / JS game dev test
 
     2. Open file index.html and play
 
+
+## Screenshots
+
+https://github.com/avislab/test/blob/master/screenshots/%20screenshot1.png
+
+https://github.com/avislab/test/blob/master/screenshots/%20screenshot2.png
