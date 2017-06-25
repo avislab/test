@@ -15,6 +15,6 @@ HTML5 / JS game dev test
 
 ## Screenshots
 
-https://github.com/avislab/test/blob/master/screenshots/%20screenshot1.png
+https://github.com/avislab/test/blob/master/screenshots/screenshot1.png
 
-https://github.com/avislab/test/blob/master/screenshots/%20screenshot2.png
+https://github.com/avislab/test/blob/master/screenshots/screenshot2.png
