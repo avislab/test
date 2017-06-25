@@ -1,6 +1,6 @@
-#test Game
+# test Game
 
-##Installation Guide
+## Installation Guide
 
     Clone the repo using
 
