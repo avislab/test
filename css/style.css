@@ -1,0 +1,7 @@
+body {margin: 0; font-family: Arial;}
+header {display:block; width: 100%; padding:7px 10px; background-color: #85c1e9; color: #fff; font-weight: bold; text-align: center;}
+.game-container {display:block;}
+.number {display:inline-block; width: 100px; padding:5px 10px; background-color: #f2f3f4; border: 1px solid  #808b96; color: #1b2631; font-weight: bold; text-align: center;}
+.plus {display:inline-block; width: 40px; height: 40px; padding:0px 0px; background-color: #BBE6EE; border: 1px solid #0080FF; text-align: center; background: url(images/plus.png); cursor: pointer;}
+.munus {display:inline-block; width: 40px; height: 40px; padding:0px 0px; background-color: #BBE6EE; border: 1px solid #0080FF; text-align: center; background: url(images/minus.png); cursor: pointer;}
+footer {display:block; width: 100%; padding:7px 10px; background-color:  #f5b041; color: #fff; text-align: center;}

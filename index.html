@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>test Game</title>
+		<meta name="description" content="">
+		<meta name="format-detection" content="telephone-no">
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width, minimal-ui">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="format-detection" content="telephone=no">
+		<script src="https://d157l7jdn8e5sf.cloudfront.net/v4.5.3/pixi.js"></script>
+		<script src="js/mygame.js"></script>
+		<link rel="stylesheet" href="css/style.css"> 
+	</head>
+	<body>
+
+		<header>test Game</header>
+
+		<div>
+			<div class="number" id="number1" title="Number of shapes">0</div>
+			<div class="number" id="number2" title="Area of shapes">0</div>
+		</div>
+
+		<div class="game-container" id="game-container"></div>
+
+		<div>
+			<button onclick="testGame.InfluxDec()"><img src="images/minus.png" /></button>
+			<button onclick="testGame.InfluxInc()"><img src="images/plus.png" /></button>
+			<div class="number" id="Influx" title="Influx">1</div>
+
+			<button onclick="testGame.GravityDec()"><img src="images/minus.png" /></button>
+			<button onclick="testGame.GravityInc()"><img src="images/plus.png" /></button>
+			<div class="number" id="GravityValue" title="Gravity">1.0</div>
+		</div>
+
+		<footer>Andrey Koryagin</footer>
+
+		<script>
+		var testGame = new myGame(800, 600, 'game-container', refreshData);
+
+		testGame.InfluxMax = 20;
+		testGame.InfluxMin = 0;
+
+		function refreshData() {
+			document.getElementById('number1').innerHTML = testGame.getShapesCounter();
+			document.getElementById('number2').innerHTML = testGame.getSahpesArea();
+			document.getElementById('GravityValue').innerHTML = testGame.getGravity();
+			document.getElementById('Influx').innerHTML = testGame.getInflux();
+		}
+		</script>
+
+	</body>
+</html>
