@@ -6,10 +6,9 @@ HTML5 / JS game dev test
 
     1. Clone the repo using
 
-       git clone https://github.com/avislab/test.git
+      git clone https://github.com/avislab/test.git
+
+      Note: You can also download and unzip this file: https://github.com/avislab/test/archive/master.zip
 
     2. Open file index.html and play
 
-Note:
-You can also download and unzip this file:
-https://github.com/avislab/test/archive/master.zip
