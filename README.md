@@ -1,10 +1,12 @@
 # test Game
 
+HTML5 / JS game dev test
+
 ## Installation Guide
 
-    -- Clone the repo using
+    1. Clone the repo using
 
-    git clone https://github.com/avislab/test.git
+       git clone https://github.com/avislab/test.git
 
 
-    -- Open file index.html and play
+    2. Open file index.html and play
